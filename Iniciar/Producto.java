@@ -8,13 +8,13 @@ public class Producto {
     String nombre;
     String descripcion;
     int precio;
-    int cantidadI;
+    int cantidadIn;
 
-    public Producto(String nombre, String descripcion, int precio, int cantidadI){
+    public Producto(String nombre, String descripcion, int precio, int cantidadIn){
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio = precio;
-        this.cantidadI = cantidadI;
+        this.cantidadI = cantidadIn;
     }
 }
 
